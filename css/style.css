@@ -70,17 +70,19 @@ figure {
 #colorlib-page {
   width: 100%;
   overflow: hidden;
+  float: right;
   position: relative; }
 
 #colorlib-aside {
   padding-top: 3em;
   padding-bottom: 40px;
+  margin-left: 0px;
   float: left;
   width: 300px;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #DCDCDC;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -216,7 +218,7 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
-  max-width: 1170px;
+  max-width: 100%;
   margin: 0 auto; }
 
 #colorlib-main {
